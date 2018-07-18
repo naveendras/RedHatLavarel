@@ -1,1 +1,9 @@
-<h1>Home</h1>
+@extends('layout.main')
+
+@section('title')
+{{$title}}
+@endsection
+
+@section('body')
+<h1>{{$title}}</h1>
+@endsection
